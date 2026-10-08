@@ -6,13 +6,13 @@
 /*   By: oaljausi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/05 15:54:33 by oaljausi          #+#    #+#             */
-/*   Updated: 2026/10/05 17:31:04 by oaljausi         ###   ########.fr       */
+/*   Updated: 2026/10/08 20:57:29 by oaljausi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_lstdelone(t_list *lst, void (*del)(void *));
+void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
 	del (lst -> content);
 	free (lst);
