@@ -20,3 +20,20 @@ t_list	*ft_lstlast(t_list *lst)
 		lst = lst -> next;
 	return (lst);
 }
+/*#include "libft.h"
+#include <unistd.h>
+
+int	main(void)
+{
+	t_list	*lst;
+	t_list	*last;
+
+	lst = NULL;
+	ft_lstadd_back(&lst, ft_lstnew("Hello"));
+	ft_lstadd_back(&lst, ft_lstnew("42"));
+	ft_lstadd_back(&lst, ft_lstnew("Amman"));
+	last = ft_lstlast(lst);
+	if (last)
+		ft_putendl_fd((char *)last->content, 1);
+	return (0);
+}*/

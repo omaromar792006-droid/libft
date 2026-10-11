@@ -6,12 +6,12 @@
 /*   By: oaljausi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/26 16:43:25 by oaljausi          #+#    #+#             */
-/*   Updated: 2026/10/03 12:51:50 by oaljausi         ###   ########.fr       */
+/*   Updated: 2026/10/10 12:51:01 by oaljausi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
 
-int	ft_atoi(char *str)
+int	ft_atoi(const char *str)
 {
 	int	i;
 	int	s;
